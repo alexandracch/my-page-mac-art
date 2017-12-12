@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mac Art</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon/ico.png">
+    <script src="https://use.fontawesome.com/398f85d77e.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <!--Nav Bar-->
@@ -12,7 +17,7 @@
         <div class="container">
             <div class="row">
                 <div class="column-xs-12 column-lg-12">
-                    <div class="nav-container">
+                    <div class="nav-container bg-reverse">
                         <a href="#">Mac Art</a>
                         <div class="view-mobile">
                             <a class="fa fa-bars" aria-hidden="true"></a>
@@ -49,16 +54,59 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam temporibus ut optio. Nihil voluptate officiis maxime et rerum temporibus dolorem saepe perferendis a sint optio ex dignissimos est, laboriosam rem?</p>
                     <button>Call to Action>></button>
                 </div>
-                <div class="column-xs-12 column-lg-4">
+                <div class="column-xs-12 column-lg-4 dos-listas">
                     <h3>Contact Us</h3>
                     <h4>Mac Art</h4>
-                    <ul>
+                    <ul class="contact">
                         <li>3481 Melrose Place</li>
                         <li>Beverly Hills,CA 90210</li>
+                    </ul>
+                    <ul class="contact">
+                        <li>Telf.: 342 42 55</li>
+                        <li> @ : name@gmail.com</li>
                     </ul>
                 </div>
             </div>
         </div>
+    <!--Section Cards-->
+    <section id="cards">
+        <div class="container">
+            <div class="row three-columns">
+                <div class="column-xs-12 column-lg-4">
+                    <figure>
+                        <img class="artist" src="assets/img/andy-warhol.jpg" alt="Andy Warhol">
+                    </figure> 
+                    <h4>Andy Warhol</h4>
+                    <p class="text-indent">Andrew Warhola, fue un artista plástico y cineasta estadounidense que desempeñó un papel crucial en el nacimiento y desarrollo del pop art. Warhol adquirió fama mundial por su trabajo en pintura, cine de vanguardia y literatura. </p>  
+                    <button>His art</button>
+                </div>
+                <div class="column-xs-12 column-lg-4">
+                    <figure>
+                        <img class="artist" src="assets/img/salvador-dali.jpg" alt="Salvador Dali">
+                    </figure> 
+                    <h3>Salvador Dalí</h3>
+                    <p class="text-indent">Salvador Felipe Jacinto Dalí i Domènech, fue un pintor, escultor, grabador, escenógrafo y escritor español del siglo XX. Se le considera uno de los máximos representantes del surrealismo.</p>  
+                    <button>His art</button>
+                </div>
+                <div class="column-xs-12 column-lg-4">
+                    <figure>
+                        <img class="artist"src="assets/img/vicent-vangogh.jpg" alt="Vicent Van Gogh">
+                    </figure> 
+                    <h3>Andy Warhol</h3>
+                    <p class="text-indent">Vincent Willem van Gogh, fue un pintor neerlandés, uno de los principales exponentes del postimpresionismo. Pintó unos 900 cuadros, entre ellos 27 autorretratos y 148 acuarelas, y realizó más de 1600 dibujos.</p>
+                    <button>His art</button>
+                </div>
+            </div>
+        </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class=" bg-reverse column-xs-12 column-lg-12">
+                    <p>Copyright &#169; Your Website 2017</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

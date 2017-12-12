@@ -1,0 +1,97 @@
+nav {
+    padding: 14px;
+    overflow: hidden;
+ }
+.nav-left {
+    font-size: 1.25rem;
+    float: left;
+    padding-left: 35px;
+  }
+
+.nav-right {
+
+    font-size: 1.25rem;
+    float: right;
+    padding-left: 35px;
+}
+li {
+    list-style: none;
+  }
+
+a {
+    color: #ffffff;  
+    text-decoration: none;
+  }
+
+.art-image {
+    line-height: 500px;
+    height: 70vh;
+    background-image: url('../assets/img/womens-in-art.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+ul li {
+    display: inline-block;
+    padding: 5px 15px;
+  }
+
+.view-mobile {
+    display: none;
+}
+
+.title:hover, button:hover {
+    cursor: pointer;
+}
+
+.container-cards, footer {
+    margin-top: 5rem;
+}
+
+/*Fin desktop*/
+
+/*Clases reutilizables*/
+.title {
+    color:white;
+    font-size: 4rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-reverse {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+button {
+    color: white;
+    background-color: rgb(147, 200, 224);
+    border: none;
+    padding: 10px 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+
+p {
+   padding: 20px 0px;  
+}
+
+.artist {
+    width: 30vh;
+}
+
+.text-indent-2 {
+    text-align: justify;
+}
+
+.text-indent {
+    width: 30vh;
+    text-indent:15px;
+    text-align: justify;
+}
