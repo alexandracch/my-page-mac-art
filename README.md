@@ -23,7 +23,9 @@ El reto consiste en:
 * Implementar `gh.pages`
 
 ## Logro
-
+![page](assets/img/captura-1-mine.JPG)
+![page](assets/img/captura-2-mine.JPG)
+![page](assets/img/captura-3-mine.JPG)
 
 
 ## Herramientas usadas
