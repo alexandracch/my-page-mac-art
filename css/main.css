@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+ }
+ 
 a {
     color: #ffffff;  
     text-decoration: none;
@@ -7,12 +11,9 @@ ul li {
     display: inline-block;
   }
 
-.view-mobile {
-    display: block;
-}
-
-.view-desktop {
-    display: none;
+.op {
+    padding: 0px 15px;
+    font-size: 1.1em;
 }
 
 .title:hover, button:hover {
@@ -28,15 +29,20 @@ ul li {
 
 button {
     border-radius: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 8%;
     color: white;
     background-color: rgb(228, 156, 198);
     border: none;
-    padding: 10px 20px;
+    padding: 12px 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h3 {
+.title{
+    font-size: 5rem;
+    padding: 25px 5px;
+}
+h3, .mac {
     font-size: 3rem;
     padding: 20px 0px;
 }
@@ -56,3 +62,5 @@ h3 {
 .text-indent {
     text-align: justify;
 }
+
+
